@@ -42,28 +42,6 @@
 #publication{
     right:150px;
 }
-#linkedin{
-    position: absolute;
-    font-size:35px; 
-    color:white;
-    top: 52px;
-    right:130px;
-}
-#linkedin:hover{
-    color: #d3d3d4;
-    cursor: pointer;
-}
-#bilibili{
-    position: absolute;
-    font-size:35px; 
-    color:white;
-    top: 53px;
-    right:50px;
-}
-#bilibili:hover{
-    color: #d3d3d4;
-    cursor: pointer;
-}
 .headerText:hover{
     color: #d3d3d4;
     cursor: pointer;
