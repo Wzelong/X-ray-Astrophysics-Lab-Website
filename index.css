@@ -24,11 +24,17 @@
     top: 53px;
     font-size:28px;
 }
+#logo{
+    position: absolute;
+    height: 90px;
+    top: 20px;
+    left: 50px;
+}
 #name{
     top: 45px;
     width: 600px;
     font-size:40px;
-    left: 50px;
+    left: 120px;
 }
 #about{
     right:650px;
