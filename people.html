@@ -10,7 +10,7 @@
 
     <title>HomePage</title>
 
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="people.css"/>
     <link rel="stylesheet" type="text/css" href="header.css"/>
 
 </head>
@@ -21,22 +21,27 @@
 
 <div class="base">
     <div class="header">
-        <img id="logo" src="images/uw-crest-web.png">
+        <img id="logo" src="images/uw-crest-web.png" onclick="window.open('https://www.physics.wisc.edu/research/')">   
         <div class="headerText" id="name" onclick="location.href='index.html'">X-ray Astrophysics Group</div>
         <div class="headerText" id="about" onclick="location.href='about.html'">About</div>
         <div class="headerText" id="research" onclick="location.href='research.html'">Research</div>
-        <div class="headerText" id="people" onclick="location.href='research.html'">People</div>
+        <div class="headerText" id="people" onclick="location.href='people.html'">People</div>
         <div class="headerText" id="publication" onclick="location.href='gallery.html'">Publication</div>
     </div>
+
     <div class="intro" rel="preload">
-        <img class="introImage" src="./images/AllSkySurvey.jpeg">
-        <div class="introtext1">"Half the normal matter in the Universe is thought to be in the form of diffuse gas at temperature ~1 million degrees or higher, where it only shows up in X-rays.</div>
-        <div class="introtext2">This is what we study: building rocket detectors and instrument to measure the X-ray emission from diffuse hot gas."</div>
+    <div class="introtext fade-in">People Intro Text Here</div>
     </div>
 
-</div>
+    <div class="innerblock1">
+        <div class="exhibit01">
+        </div>
+        
+    </div> 
 
-<script src="index.js" type="module" defer></script>
+    
+</div>
+<script src="observers.js"></script>
 </body>
 
 </html>
