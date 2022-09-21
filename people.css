@@ -47,6 +47,10 @@
     float: left;
     width: 60%;
 }
+.profile-list-wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
 .fade-in{
     opacity: 0;
     transition: all 400ms ease-in;
